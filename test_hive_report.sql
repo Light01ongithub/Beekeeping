@@ -1,8 +1,7 @@
--- Tests for the hive report. Stop at the first failed check, so it is not
--- followed by PASS lines that make the run look fine.
+
 .bail on
 
--- Run the report twice: the second run proves the DROP ... IF EXISTS lines work.
+
 
 .read hive_report.sql
 .read hive_report.sql
