@@ -3,7 +3,7 @@
 .bail on
 
 -- Run the report twice: the second run proves the DROP ... IF EXISTS lines work.
--- The checks below read the report's own views, so they test its real queries.
+
 .read hive_report.sql
 .read hive_report.sql
 
